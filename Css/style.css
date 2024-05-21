@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: rgb(218, 131, 32);
+}
+.btn{
+    margin-left: 50%;
+    background-color: rgb(77, 46, 11);
+    border-color: rgb(77, 46, 11) !important;
+    color: beige; 
+}
+
+.container{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    background-color: rgba(202, 158, 92, 0.945);
+}
+
+legend, label, #result{
+    color: rgb(77, 46, 11) !important;
+}

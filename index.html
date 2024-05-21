@@ -1,0 +1,55 @@
+<!-- Index
+1-Head
+2-Body
+    2.1-Header
+    2.2-Main (carousel)
+    
+    2.14-Footer
+    2.15-Modal
+    2.16-JS -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Description" content="This is Food Match Calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Match</title>
+        <link rel="stylesheet" href="Css/all.css">
+        <link rel="stylesheet" href="Css/Bootstrap Icon/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="Css/fastbootstrap.min.css">
+        <link rel="stylesheet" href="Css/bootstrap.css">
+        <link rel="stylesheet" href="Css/style.css">
+    </head>
+
+    <body>
+
+     <main>
+      <div class="container col-4 position-absolute top-50 start-50 translate-middle rounded p-3">
+        <legend class="text-center my-2 fs-3 text-decoration-underline fw-bold">BMI INDEX CAL</legend>
+        <label for="Gender" class="form-label ps-1 fs-5">Gender</label>
+          <select class="form-select" id="Gender" aria-label="Floating label select example">
+            <option selected hidden disabled>Choose Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        <label for="AGE" class="form-label ps-1 fs-5">Age</label>
+        <input type="number" id="AGE" class="form-control mb-2" aria-valuetext="" placeholder="Write your Age" required>
+        <label for="Feet" class="form-label ps-1 fs-5">Height (Feet)</label>
+        <input type="number" id="Feet" class="form-control mb-2" aria-valuetext="" placeholder="Write your Height in feet" required>
+        <label for="Inch" class="form-label ps-1 fs-5">Height (Inch)</label>
+        <input type="number" id="Inch" class="form-control" placeholder="Write your Height in inches" required>
+        <label for="Weight" class="form-label ps-1 fs-5">Weight</label>
+        <input type="number" id="Weight" class="form-control mb-2" aria-valuetext="" placeholder="Write Your weight in kg" required>
+        <button class="btn border  border-2 rounded-2 p-2 my-2 translate-middle-x" onclick="BMICAL()">Calculate</button>
+        <div id="result" class="text-center fw-bold"></div>
+      </div>
+      
+     </main>
+
+      <!-- <script src="./js/fastbootstrap.js"></script> -->
+      <script src="./js/bootstrap.bundle.js"></script>
+      <script src="./js/script.js"></script>   
+
+    </body>
+</html>
