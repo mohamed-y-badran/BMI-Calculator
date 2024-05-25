@@ -3,7 +3,7 @@
 *The application allows users to input their weight, height, age, and gender to calculate their BMI and determine their BMI category.* 👱
 
 👍*#Features*
-  1.BMI Calculation: Accurately calculates the BMI based on user input.
+1.BMI Calculation: Accurately calculates the BMI based on user input.
   2.BMI Category: Provides a BMI category (e.g., Underweight, Normal weight, Overweight, Obese) based on the calculated BMI.
   3.User Input: Accepts weight, height, age, and gender as inputs for a personalized calculation.
   4.Responsive Design: Ensures usability across various devices and screen sizes using Bootstrap.
